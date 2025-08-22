@@ -9,8 +9,6 @@ else:
 
 #Task 2
 
-counter = 0
-
 total = 0
 num = 1
 while num <= 50:
