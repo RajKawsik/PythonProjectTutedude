@@ -11,7 +11,9 @@ else:
 
 counter = 0
 
-for x in range(1, 51):
-    counter = counter + x
-
-print("The sum of integers from 1 to 50 is:", counter)
+total = 0
+num = 1
+while num <= 50:
+    total = total + num
+    num = num + 1
+print("The sum of integers from 1 to 50 is:", total)
