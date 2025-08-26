@@ -14,7 +14,16 @@ def add1(a,b):
     c = a+b
     return c
 
-ans=add1(10,20)
-print(ans)
+a=int(input("Enter first value: "))
+b=int(input("Enter second value: "))
+ans=add1(a,b)
+print(ans)  # Variable 'ans' receives the returned result
+
 #don't forget to assign variable name to function call. or else won't return
 
+def mult(a,b):
+    c = a * b
+    return c
+
+result = mult(2, "Mike ")
+print(result)
